@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     HCDfactory *factory = [[HCDfactoryAdd alloc]init];
-    HCDfactory  *calculate = [factory createFactory];
+    HCDCalculateAdd  *calculate = [factory createFactory];
     calculate.numberA = 10;
     calculate.numberB = 15;
     NSLog(@"结果是%f",[calculate calculate]);
