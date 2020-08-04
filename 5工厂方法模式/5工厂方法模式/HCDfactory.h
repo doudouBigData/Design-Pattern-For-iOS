@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDCalculate.h"
-@interface HCDfactory : NSObject<HCDCalculate>
+@interface HCDfactory : NSObject
 -(id<HCDCalculate>)createFactory;
 @end
