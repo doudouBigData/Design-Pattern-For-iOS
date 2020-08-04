@@ -9,5 +9,7 @@
 #import "HCDfactory.h"
 
 @implementation HCDfactory
-
+-(id<HCDCalculate>)createFactory {
+  return nil;
+}
 @end
